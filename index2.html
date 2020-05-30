@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>清水龍之介プロフィールページ</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <style>
+        body {
+            padding-top: 50px;
+            background-color: lightgray;
+        }
+
+        .starter-template {
+            padding: 40px 40px;
+            background-color: white;
+        }
+
+        .color-thumbs-up {
+            color: lightseagreen;
+        }
+
+        .color-cutlery {
+            color: steelblue;
+        }
+
+        .color-heart {
+            color: plum;
+        }
+
+        .icon-size {
+            font-size: 200%;
+        }
+		.section-title {
+		border-bottom: 2px solid #dee7ec;
+		font-size: 28px;
+		padding-bottom: 15px;
+		margin-bottom: 50px;
+		}
+
+
+        .content-form{
+        	padding:100px;
+
+        input, textarea{
+			width:400px;
+			margin-top:10px;
+			margin-bottom:30px;
+			padding:20px;
+			font-size:18px;
+			border :1px solid #dee7ec;
+		}
+		.contact-submit{
+			background:#dee7ec;
+			color:#889eab;
+		}
+
+    </style>
+</head>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Ryunosukeのページ</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Ryunosukeのページ</a>
+			</div>
+			<div id="navbar" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#works">Works</a></li>
+					<li><a href="#skills">Skills</a></li>
+				</ul>
+			</div>
+			<!--/.nav-collapse -->
+		</div>
+	</nav>
+	<div class="jumbotron">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					<h1>Simizu Ryuunosuke</h1>
+					<p class="lead">My ポートフォリオ。</p>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="starter-template">
+			<div class="row text-center">
+				<h2 id="works">頑張り屋さん！</h2>
+				<div class="col-sm-6">
+					<h2 class="color-thumbs-up"><span class="glyphicon glyphicon-volume-up icon-size"></span><br>努力家</h2>
+					<p>一刻も早く利益に貢献<br>できるように勉強します。</p>
+				</div>
+				<div class="col-sm-6">
+					<h2 class="color-cutlery"><span class="glyphicon glyphicon-wrench icon-size"></span><br>料理上手</h2>
+					<p>食べログで地域順位1位<br>を獲得しました。</p>
+				</div>
+
+			</div>
+			<hr>
+			<h2 id="works">Works</h2>
+			<div class="row">
+				<div class="col-sm-6">
+					<h3>タイピング英語 - 英語学習用のアプリ</h3>
+					<p>英単語とその意味が表示され、同じ単語をタイプして記憶させる英単語学習アプリです。</p>
+				</div>
+				<div class="col-sm-6">
+					<img src="englishword.png" class="img-responsive">
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Others</h3>
+					<ul>
+						<li><a href="https://github.com/aruflead8787/">Github</a></li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<h2 id="skills">Skills</h2>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Programing Language</h3>
+					<ul>
+						<li>Python</li>
+						<li>html</li>
+						<li>css</li>
+					</ul>
+
+				</div>
+			</div>
+			<div class="contact-form">
+				<h3 class="section-title">お問い合わせ</h3>
+				<p>メールアドレス</p>
+				<input>
+				<p>お問い合わせ内容</p>
+				<textarea></textarea>
+				<p>＊必須条件は必ずここに記入してください</p>
+				<input class="contact-submit" type="submit" value="送信">
+			</div>
+			<a class="btn btn-primary pull-right" href="#">Topに戻る</a>
+			<p></p>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>SHIMIZU</title>
+        <link rel="practice_stylesheet" href="practice_stylesheet.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="hedder-logo">
+                Portofolio
+            </div>
+            <div class="hedder-list">
+                <ul>
+                    <li>Home</li>
+                    <li>Works</li>
+                    <li>Skills</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="top-wrapper">
+            <div class= "container">
+                <h1>Shimizu Ryunosuke.</h1>
+                <h1>portfolio.</h1>
+                <p>ポートフォリオページ</p>
+                <p>是非ご覧ください</p>
+            </div>
+        </div>
+        <div class="lesson-wrapper"></div>
+        <div class="message-wrapper"></div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+
+        <div class="footer">
+        <div class="footer-logo">Shimizu</div>
+            <div class="footer-list">
+                <ul>
+                    <li>お問い合わせ</li>
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>
